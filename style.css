@@ -1,0 +1,87 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(184, 184, 178);
+  margin: 0;
+}
+.navUp {
+  display: flex;
+  background-color: rgb(41, 167, 30);
+  color: aliceblue;
+  flex-direction: column;
+  text-align: center;
+}
+.navInNav {
+  background-color: rgb(39, 95, 25);
+  margin: 7px;
+}
+#nav1 {
+  background-color: rgb(39, 95, 25);
+  color: antiquewhite;
+  padding: 5px;
+}
+.up {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.down {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.blockInDown1:hover {
+  background-color: rgb(214, 201, 201);
+}
+.blockInDown {
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  /* background-color: red; */
+  /* height: 500px; */
+  flex-direction: column;
+  padding: 0px;
+}
+.blockInDown1 {
+  display: flex;
+  background-color: rgb(173, 168, 161);
+  border-radius: 7px;
+  /* display: block; */
+  flex-direction: column;
+  margin: 4px;
+  justify-content: left;
+  text-align: left;
+  height: 75px;
+  width: 450px;
+}
+#bl1 {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 0px;
+  font-size: small;
+}
+#bl2 {
+  display: flex;
+  justify-content: left;
+  font-size: small;
+}
+#bl3 {
+  font-size: small;
+}
+#bl4 {
+  order: ;
+  font-size: small;
+}
+.navDown {
+  display: flex;
+  background-color: rgb(41, 167, 30);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
